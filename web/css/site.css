@@ -40,10 +40,6 @@ a.desc:after {
     border-bottom-width: 0;
 }
 
-.grid-view th {
-    white-space: nowrap;
-}
-
 .hint-block {
     display: block;
     margin-top: 5px;
@@ -86,3 +82,23 @@ a.desc:after {
 .form-group {
     margin-bottom: 1rem;
 }
+
+/* PKGH { */
+
+@font-face {
+font-family: "Lobster-Regular";
+src: url("/fonts/Lobster-Regular.ttf");
+}
+
+
+.logo {
+font-family: "Lobster-Regular";
+color: #ffcc00;
+}
+
+.grid-view {
+    word-break: normal;
+    overflow-wrap: anywhere;
+}
+
+/* } PKGH */
